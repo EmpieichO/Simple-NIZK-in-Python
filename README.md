@@ -1,5 +1,5 @@
-# Simple-NIZK-in-Python
-Implementing a simple non-interactive zero-knowledge in python
+# Simple NIZK in Python
+Implementing a simple non-interactive zero-knowledge proof in python
 
 ## **Description**
 Suppose Alice has to prove knowledge of $k$, which is the log of $x = b^k$, where $x$ and $b$ are publicly known numbers. 
