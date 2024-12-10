@@ -34,7 +34,7 @@ Any party can verify Alice's proof as follows,
 
 ## **Why does this work?** 
 
-- 1st, note $b^r * x^c = b^{v - (k*c)} * (b^k)^c = b^v * b^{-(k*c)} * b^{k * c} = b^v = s$. 
+- 1st, note $b^r * x^c = b^{v - (k * c)}  * (b^k)^c = b^v * b^{-(k*c)} * b^{k * c} = b^v = s$. 
 - 2nd, the outcome $c$ of the hash function CRH was unpredictable. 
 - 3rd, it is infeasible to solve the Discrete Log Problem for a large integer $b$. Therefore Alice must have known $k$, because there's no other way she could have correctly computed $r$. 
 
